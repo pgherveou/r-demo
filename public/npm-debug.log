@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'doc', 'antinode' ]
+2 info using npm@1.1.58
+3 info using node@v0.8.6
+4 verbose url raw antinode/latest
+5 verbose url resolving [ 'https://registry.npmjs.org/', './antinode/latest' ]
+6 verbose url resolved https://registry.npmjs.org/antinode/latest
+7 info retry registry request attempt 1 at 16:12:22
+8 http GET https://registry.npmjs.org/antinode/latest
+9 http 404 https://registry.npmjs.org/antinode/latest
+10 silly registry.get cb [ 404,
+10 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+10 silly registry.get     date: 'Sun, 26 Aug 2012 14:12:24 GMT',
+10 silly registry.get     'content-type': 'application/json',
+10 silly registry.get     'content-length': '52',
+10 silly registry.get     'cache-control': 'must-revalidate' } ]
+11 error 404 'antinode' is not in the npm registry.
+11 error 404 You should bug the author to publish it
+11 error 404
+11 error 404 Note that you can also install from a
+11 error 404 tarball, folder, or http url, or git url.
+12 error System Darwin 12.0.0
+13 error command "node" "/usr/local/bin/npm" "doc" "antinode"
+14 error cwd /Users/pg/Sandbox/r-demo/public
+15 error node -v v0.8.6
+16 error npm -v 1.1.58
+17 error code E404
+18 verbose exit [ 1, true ]

@@ -1,0 +1,16 @@
+{
+  "name": "r-demo",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "",
+  "keywords": [
+    "r.js",
+    "requirejs"
+  ],
+  "author": "",
+  "license": "BSD"
+}
